@@ -312,16 +312,10 @@
     }
 
     .pc-video > #pc-video {
-        height: 136px;
+        height: 114px;
         /* margin-top: -20px; */
-        margin-top: -16px;
-        margin-right: -62px;
-    }
-
-    .on-device .tv-video {
-        margin: 100px;
-        position: absolute;
-        top: 0;
+        margin-top: -24px;
+        margin-right: -84px;
     }
 
     .faqs {
