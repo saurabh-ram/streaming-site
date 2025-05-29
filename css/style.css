@@ -382,7 +382,7 @@ body {
 
 .footer-text {
     color: grey;
-    height: 60px;
+    height: auto;
     padding: 10px 5px;
     font-family: "Poppins", serif;
     font-weight: 500;
