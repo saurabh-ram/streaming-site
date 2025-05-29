@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="5kAUZ9KfI3ykBnTC2CMWLZCU7BpN60iJ6rKyIMX-KKg" />
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media_queries.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Liter&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Rubik:ital,wght@0,300..900;1,300..900&family=Russo+One&family=Sacramento&family=Silkscreen:wght@400;700&family=VT323&family=Yatra+One&display=swap');
+    </style>
+</head>
+<body>
+    <main class="main">
+        <section class="section-1">
+            <div class="nav-container">
+                <nav class="navigation-bar">
+                    <div class="logo">
+                        <img height="40" src="./images/logo.svg" alt="Netflix logo">
+                    </div>
+                    <div class="buttons">
+                        <ul class="nav-options">
+                            <li>
+                                <label for="select-lang"></label>
+                                <select name="languages" id="select-lang">
+                                    <option value="English"><img height="10px" src="./images/translate.svg" alt="translate">English</option>
+                                    <option value="Hindi">Hindi</option>
+                                </select>
+                            </li>
+                            <li><button class="sign-in-btn"><a href="./htmls/comingsoon.html">Sign In</a></button></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="content-container">
+                <div class="content">
+                    <span class="cont-sp-1">Unlimited movies, TV shows and more</span><br/><br/>
+                    <span class="cont-sp-2">Starts at ₹149. Cancel at any time.</span><br/><br/><br/>
+                    <span class="cont-sp-3">Ready to watch? Enter your email to create or restart your membership.</span>
+                </div>
+                <div class="email-input-container">
+                    <input id="input-1" type="text" placeholder="Email address"/>
+                    <button class="get-st-btn">Get Started&nbsp;&nbsp;&gt;</button>
+                </div>
+            </div>
+            <div class="box"></div>
+        </section>
+        <div class="separation"></div>
+
+        <div class="trending"></div>
+
+        <section class="section-3">
+            <div class="on-device reverse">
+                <div class="desc">
+                    <div class="device-desc">
+                        <span class="cont-sp-4">Enjoy on your TV</span><br/>
+                        <span class="cont-sp-3">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</span>
+                    </div>
+                </div>
+                <div class="device-container">
+                    <div class="tv-img">
+                        <img id="tv-img" height="400" src="./images/netflix-tv.png" alt="tv image">
+                    </div>
+                    <div class="tv-video">
+                        <video style="opacity: 0.5;" id="tv-video" height="195" src="./videos/video1.mp4" muted autoplay loop></video>
+                    </div>
+                </div>
+        </div>
+        </section>
+        <div class="separation grey"></div>
+        <section class="section-3">
+            <div class="on-device">
+                <div class="device-container">
+                    <div class="phone-img">
+                        <img id="phone-img" height="353" src="./images/netflix-iphone.png" alt="phone image">
+                    </div>
+                </div>
+                <div class="desc">
+                    <div class="device-desc">
+                        <span class="cont-sp-4">Download your shows to watch offline</span><br/>
+                        <span class="cont-sp-3">Save your favourites easily and always have something to watch.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="separation grey"></div>
+        <section class="section-3">
+            <div class="on-device reverse">
+                <div class="desc">
+                    <div class="device-desc">
+                        <span class="cont-sp-4">Watch everywhere</span><br/>
+                        <span class="cont-sp-3">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</span>
+                    </div>
+                </div>
+                <div class="device-container">
+                    <div class="devices-img">
+                        <img id="devices-img" src="./images/netflix-devices.png" alt="image of different devices">
+                    </div>
+                    <div class="pc-video">
+                        <video id="pc-video" height="210" src="./videos/video2.m4v" muted autoplay loop></video>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="separation grey"></div>
+        <section class="section-3">
+            <div class="on-device extra-space">
+                <div class="device-container">
+                    <div class="profiles-img">
+                        <img id="profiles-img" height="380" src="./images/create-profile.png" alt="image of a kid">
+                    </div>
+                </div>
+                <div class="desc">
+                    <div class="device-desc">
+                        <span class="cont-sp-4">Create profiles for kids</span><br/>
+                        <span class="cont-sp-3">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="separation grey"></div>
+        <section class="faqs">
+            <h2>Frequently Asked Questions</h2>
+            <div class="qnas">
+                <div id="q1" class="faqbox">
+                    <span class="cont-sp-5">What is NetFlix?</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" color="#ffffff" fill="none">
+                        <path d="M12 4V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4 12H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div id="q2" class="faqbox">
+                    <span class="cont-sp-5">How much does Netflix cost?</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" color="#ffffff" fill="none">
+                        <path d="M12 4V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4 12H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div id="q3" class="faqbox">
+                    <span class="cont-sp-5">Where can I watch?</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" color="#ffffff" fill="none">
+                        <path d="M12 4V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4 12H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div id="q4" class="faqbox">
+                    <span class="cont-sp-5">How do I cancel?</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" color="#ffffff" fill="none">
+                        <path d="M12 4V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4 12H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div id="q5" class="faqbox">
+                    <span class="cont-sp-5">What can I watch on Netflix?</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" color="#ffffff" fill="none">
+                        <path d="M12 4V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4 12H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div id="q6" class="faqbox">
+                    <span class="cont-sp-5">Is Netflix good for kids?</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" color="#ffffff" fill="none">
+                        <path d="M12 4V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4 12H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <section class="section-4">
+            <div class="content-container">
+                <div class="content">
+                    <span class="cont-sp-6 white">Ready to watch? Enter your email to create or restart your membership.</span>
+                </div>
+            </div>
+            <div class="email-input-container">
+                <input id="input-2" type="text" placeholder="Email address"/>
+                <button class="get-st-btn">Get Started&nbsp;&nbsp;&gt;</button>
+            </div>
+        </section>
+        <br/>
+        <br/>
+    </main>
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-items">
+                <div class="footer-info">
+                    <div class="footer-text grey-text">
+                        <span>Questions? Call <a class="grey-text" href="tel:000-800-919-1743">000-800-919-1743</a></span>
+                    </div>
+                    <div class="footer-info-list footer-text grey-text">
+                        <ul class="footer-info-grid">
+                            <li><a class="grey-text" href="./htmls/comingsoon.html">FAQ</a></li>
+                            <li><a class="grey-text" href="./htmls/comingsoon.html">Help Centre</a></li>
+                            <li><a class="grey-text" href="./htmls/comingsoon.html">Account</a></li>
+                            <li><a class="grey-text" href="./htmls/comingsoon.html">Media Centre</a></li>
+                            <li><a class="grey-text" href="./htmls/comingsoon.html">Investor Relations</a></li>
+                            <li><a class="grey-text" href="./htmls/comingsoon.html">Privacy</a></li>
+                            <li><a class="grey-text" href="./htmls/comingsoon.html">Speed Test</a></li>
+                            <li><a class="grey-text" href="./htmls/comingsoon.html">Jobs</a></li>
+                            <li><a class="grey-text" href="./htmls/comingsoon.html">Cookie Preferences</a></li>
+                            <li><a class="grey-text" href="./htmls/comingsoon.html">Legal Notices</a></li>
+                            <li><a class="grey-text" href="./htmls/comingsoon.html">Ways to Watch</a></li>
+                            <li><a class="grey-text" href="./htmls/comingsoon.html">Corporate Information</a></li>
+                            <li><a class="grey-text" href="./htmls/comingsoon.html">Only on Netflix</a></li>
+                            <li><a class="grey-text" href="./htmls/comingsoon.html">Terms of Use</a></li>
+                            <li><a class="grey-text" href="./htmls/comingsoon.html">Coontact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="lang-btn">
+                        <label for="select-lang"></label>
+                        <select name="languages" id="select-lang">
+                            <option value="English"><img height="10px" src="../Video 41/translate.png" alt="translate">English</option>
+                            <option value="Hindi">Hindi</option>
+                        </select>
+                    </div>
+                    <div class="footer-text grey-text">Netflix India</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
