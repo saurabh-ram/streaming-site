@@ -7,6 +7,7 @@
     <title>Anime X</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media_queries.css">
+    <link rel="stylesheet" href="./css/disclaimer.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Liter&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Rubik:ital,wght@0,300..900;1,300..900&family=Russo+One&family=Sacramento&family=Silkscreen:wght@400;700&family=VT323&family=Yatra+One&display=swap');
@@ -226,5 +227,19 @@
             </div>
         </div>
     </footer>
+    <div id="disclaimer-overlay">
+        <div id="disclaimer-box">
+            <h2>Disclaimer</h2>
+            <p>THIS PAGE WAS MADE AS A PERSONAL EDUCATIONAL PROJECT. This is NOT the official site of the company or brand identified on the page. The creator of this page is NOT affiliated with the company or brand in any way. This page is a personal project made in connection with an educational exercise.</p>
+            <button onclick="hideDisclaimer()">I Understand</button>
+        </div>
+    </div>
+
+    <script>
+        function hideDisclaimer() {
+            const overlay = document.getElementById("disclaimer-overlay");
+            overlay.style.display = "none";
+        }
+    </script>
 </body>
 </html>
